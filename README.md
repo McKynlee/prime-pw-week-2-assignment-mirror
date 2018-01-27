@@ -3,48 +3,24 @@
 This week we introduced the programming language of the Internet, JavaScript. With JavaScript we can make our websites smart by adding interactivity and logic.
 
 ## Topics Covered
-* The prompt function and user input
-* Creating a variable
-* Conditional statement
-* Functions
-* Scope
+* Variables and Constants
+* Conditional statements
+
 
 ## Assignment
 
 As always, start off by forking and cloning this repository from GitHub. Open the code up in Atom to get started.
 
-Don't forget to keep the existing code as is and ignore any code that is commented: `// -- DON'T TOUCH CODE BELOW --`. Also, remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go.
+Remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go.
 
 ### Files Provided
 
-This week you'll be completing the scripts in the following files. But note, that we have different levels of difficulty contained within each file.
+This week you'll be completing the scripts in the following files. But note, that we have different levels of difficulty.
 
-- [ ] *1_alert.js* (Base)
-- [ ] *2_types.js* (Base)
-- [ ] *3_scope.js* (Pro)
+- [ ] *aboutMe.js* (Base, Hard, Pro)
 
-Each script has some code ready for you with comments telling you what to write. For example, a
-sample assignment file might have originally been assigned like this:
+The file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
 
-```javascript
-function tripleThis( number ){
-  // this function accepts a number as an argument
-  // write code that triples the number given
-  // return this new, higher number
-} // end tripleThis
-```
-
-After doing your work, it might look something like the following:
-
-```javascript
-function tripleThis( number ){
-  // this function accepts a number as an argument
-  // write code that triples the number given
-  var answer = number * 3;
-  // return this new, higher number
-  return answer;
-} // end tripleThis
-```
 #### Modes
 
 Above, we introduced the concept of levels of difficulty. "Mode" is how we will typically refer to each level. Below is a brief explanation of
@@ -63,4 +39,4 @@ Pro | optional, stretches your understanding and may require additional research
 **IMPORTANT:** Don't edit or worry about any files other than the *.js* files.
 
 ### Assignment Submission
-Check in your repo, then turn in your work via the Prime Academy Assignment Application at http://primeacademy.io, as usual and don't hesitate to hit up the Slack channel as needed!
+Check in your repo, then turn in your work via the <a target="_blank" href="http://www.primeacademy.io/student/assignments">Prime Academy Assignment Application</a>, as usual and don't hesitate to hit up the Slack channel as needed!
