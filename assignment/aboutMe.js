@@ -40,4 +40,4 @@
 // 16 - Write a conditional that assigns the value of the addition
 // of the `pets` & `friendsPets` variables to a new variable called `totalPets` IF `pets` is greater
 // than `friendsPets`. If `friendsPets` is greater than `pets`, assign the difference of the `pets` & `friendsPets`
-// variables to `totalPets
+// variables to `totalPets`. Console log the value of `totalPets`.
