@@ -17,9 +17,10 @@ Remember `console.log()` is your friend and you can use it in conjunction with t
 
 This week you'll be completing the scripts in the following files. But note, that we have different levels of difficulty.
 
+- [ ] *index.html* (Required Features)
 - [ ] *aboutMe.js* (Required Features, Stretch Goals)
 
-The file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
+The .js file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
 
 #### Levels of Difficulty
 
