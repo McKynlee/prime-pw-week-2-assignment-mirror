@@ -1,4 +1,4 @@
-# prime-pw-week-2-assignment
+# Prime Tier 1 Week 2
 
 This week we introduced the programming language of the Internet, JavaScript. With JavaScript we can make our websites smart by adding interactivity and logic.
 
@@ -11,28 +11,27 @@ This week we introduced the programming language of the Internet, JavaScript. Wi
 
 As always, start off by forking and cloning this repository from GitHub. Open the code up in Atom to get started.
 
-Remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go.
+Remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go (just like you did to see your 'Hello World' last week!).
 
 ### Files Provided
 
 This week you'll be completing the scripts in the following files. But note, that we have different levels of difficulty.
 
-- [ ] *aboutMe.js* (Base, Hard, Pro)
+- [ ] *aboutMe.js* (Required Features, Stretch Goals)
 
 The file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
 
-#### Modes
+#### Levels of Difficulty
 
-Above, we introduced the concept of levels of difficulty. "Mode" is how we will typically refer to each level. Below is a brief explanation of
+Above, we introduced the concept of levels of difficulty. Below is a brief explanation of:
 
-* what to expect when attempting each mode
+* what to expect when attempting each level
 * if they are required or not
 
-Mode | Description
+Level | Description
 --- | ---
-Base | required
-Hard | optional, stretches your understanding
-Pro | optional, stretches your understanding and may require additional research
+Required Features | required
+Stretch Goals | optional, stretches your understanding and may require additional research
 
 **NOTE:** All the *.js* files are already sourced into *index.html*.
 
