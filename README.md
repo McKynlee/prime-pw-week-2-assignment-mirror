@@ -36,8 +36,6 @@ Stretch Goals | optional, stretches your understanding and may require additiona
 
 **NOTE:** All the *.js* files are already sourced into *index.html*.
 
-**IMPORTANT:** Don't edit or worry about any files other than the *.js* files.
-
 ### Assignment Submission
 Check in your repo, then turn in your work via the <a target="_blank" href="http://www.primeacademy.io/student/assignments">Prime Academy Assignment Application</a>, as usual and don't hesitate to hit up the Slack channel as needed!
 
