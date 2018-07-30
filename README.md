@@ -17,7 +17,7 @@ Remember `console.log()` is your friend and you can use it in conjunction with t
 
 This week you'll be completing the scripts in the following files. But note, that we have different levels of difficulty.
 
-- [ ] *index.html* (Required Features)
+- [ ] *index.html* (You can put any questions you have in this file)
 - [ ] *aboutMe.js* (Required Features, Stretch Goals)
 
 The .js file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
@@ -34,7 +34,7 @@ Level | Description
 Required Features | required
 Stretch Goals | optional, stretches your understanding and may require additional research
 
-**NOTE:** All the *.js* files are already sourced into *index.html*.
+**NOTE:** The *.js* file is already sourced into *index.html*.
 
 ### Assignment Submission
 Check in your repo, then turn in your work via the <a target="_blank" href="http://www.primeacademy.io/student/assignments">Prime Academy Assignment Application</a>, as usual and don't hesitate to hit up the Slack channel as needed!
