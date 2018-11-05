@@ -24,7 +24,7 @@ The .js file contains comments with prompts on what code to write. Do not erase 
 
 #### Levels of Difficulty
 
-Above, we introduced the concept of levels of difficulty. Below is a brief explanation of:
+Below is a brief explanation of:
 
 * what to expect when attempting each level
 * if they are required or not
