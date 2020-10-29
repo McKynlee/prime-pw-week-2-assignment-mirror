@@ -1,6 +1,6 @@
 // WHAT IS THIS EVEN DOING?
 
-// Each code block below is syntactically correct. Your job is to describe what is happening. 
+// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
 // They are in isolation -- variables in one question do not affect other questions.
 
 
@@ -95,8 +95,8 @@ if (isStudent === true && zip > 80000 ) {
 
 
 // REVERSE
-// Now, we'll give you a description and some code. Make the code match the description. 
-// Look closely -- things are missing and wrong in the code!
+// Now, for questions 4-6, we'll give you a description and some code. Make the code match the description. 
+// Look closely -- things are logically incorrect or missing and wrong in the code!
 
 //4. We start with three variables -- colorOne is set to 'blue' and colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 //-- it is, so we set colorOne and colorTwo to 'purple'
@@ -124,11 +124,18 @@ if (temp > 39 || time >= 4) {
 }
 */
 
-//6. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
-// -- they are so we console.log 'throw away the food!'
+//6. We start with two variables -- age is set to  23 and minAge is set to 21.
+// We check if age is less than minAge 
+// -- they are not, so we console.log 'enter'.
 
 /*
+let age = 23;
+const minAge = 21;
 
+if() {
+  console.log('no entry')
+} else {
+
+}
 */
 
