@@ -95,8 +95,33 @@ if (isStudent === true && zip > 80000 ) {
 
 
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. Make the code match the description. 
+// Now, for questions 4-6, we'll give you a description and some code. 
+// Make the code match the description-- comment above the problem code and a potential solution. 
 // Look closely -- things are logically incorrect or missing and wrong in the code!
+
+// 0. WRITE YOUR DESCRIPTION HERE
+// //EXAMPLE. We make a variable called number and set it to 1 as a number.
+// Then we increment the number variable. Number is now 2.
+// We check if number is greater than or equal to 2. 2 is equal to 2, so
+// we console.log 'yes'
+
+//CODE
+/*
+let number = 1;
+
+// number-- decrements number, and the instructions ask to increment. 
+// Should be number++.
+number--; 
+
+if (number >= 2) {
+  console.log('yes');
+}
+
+*/
+
+
+
+
 
 //4. We start with three variables -- colorOne is set to 'blue' and colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 //-- it is, so we set colorOne and colorTwo to 'purple'
@@ -107,7 +132,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple'
+  colorOne = 'purple';
 }
 */
 
@@ -120,22 +145,22 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
-  console.log('throw away the food!)
+  console.log('throw away the food!);
 }
 */
 
-//6. We start with two variables -- age is set to  23 and minAge is set to 21.
+//6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is less than minAge 
 // -- they are not, so we console.log 'enter'.
 
 /*
-let age = 23;
+let age = 21;
 const minAge = 21;
 
-if() {
-  console.log('no entry')
+if(minAge < age) {
+  console.log('enter');
 } else {
-
+  console.log('no entry');
 }
 */
 
