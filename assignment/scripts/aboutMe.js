@@ -8,10 +8,10 @@
 
 // 4 - Console log the value of `fullName`
 
-// 5 - Create a variable called `age` and assign it the value of your age
+// 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
 // 6 - Console log this sentence, adding in the variables you created above: 
-// 'My name is (full name), and I am (age) years old.'.
+// 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
@@ -30,9 +30,8 @@
 // if it's not true, console log "How about we stay home?"
 
 
-// STRETCH GOALS:
-// 14 - Create a compound conditional: if age is greater than 18 and adventurous is true,
-// console log "Hurray!"
+// 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
+// console log "Roll the dice!"
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -40,7 +39,16 @@
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-// 16 - Write a conditional that assigns the value of the `pets` variable 
-// to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
-// If `friendsPets` is greater than `pets`, assign the value of the `friendsPets`
-// variable to `mostPets`. Console log the value of `mostPets`.
+// STRETCH GOALS:
+
+// 16 - Make a variable called `mostPets` and a conditional that
+// correctly checks the `pets` and `friendsPets` variables, and
+// assigns the highest value to `mostPets`. There's several possibilities --
+// be sure to think through all the scenarios. 
+// console.log `mostPets` after the conditional has run.
+
+// 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+
+// 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+
