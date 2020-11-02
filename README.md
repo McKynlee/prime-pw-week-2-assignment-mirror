@@ -19,10 +19,10 @@ This week you'll be completing the scripts in the following files. But note, tha
 
 - [ ] *index.html* (You can put any questions you have in this file)
 - [ ] *aboutMe.js* (Required Features, Stretch Goals)
-- [ ] *wited.js* (Required Features)
+- [ ] *describe.js* (Required Features)
 
 The aboutMe.js file contains comments with prompts on what code to write. Do not erase the comments, just write the code below each commented line.
-The wited.js file contains prompts for comments and code. 
+The describe.js file contains prompts for comments and code. 
 
 #### Levels of Difficulty
 
