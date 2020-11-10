@@ -63,7 +63,7 @@ if (code > 250) {
   secret = 'duper'
 }
 
-conosle.log(secret)
+console.log(secret)
 
 */
 
