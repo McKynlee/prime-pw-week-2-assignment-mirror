@@ -2,6 +2,8 @@
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
 // They are in isolation -- variables in one question do not affect other questions.
+// Describe the code as it would be run, and make sure you give us the console.log's value at the end.
+// (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
