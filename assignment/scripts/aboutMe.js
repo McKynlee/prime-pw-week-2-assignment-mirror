@@ -17,9 +17,10 @@ let luckyNumber=9;
 // Refer back to the videos if you need help with this one.
 console.log('My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous=true;
+let adventurous=false;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food='rotisserie chicken and roasted potatoes';
+console.log("I'm going to talk about", food, "even though you didn't ask me to!");
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets=1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -42,12 +43,23 @@ else {
 if (luckyNumber===2 && adventurous) {
   console.log("Roll the dice!");
 }
+else {
+  console.log("Don't touch those dice!!");
+}
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-
+if (pets<petsAllowed) {
+  console.log("I can have more pets!");
+}
+else if (pets===petsAllowed){
+  console.log("I have enough pets.");
+}
+else {
+  console.log("Oh no, I have too many pets!");
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
@@ -55,7 +67,32 @@ if (luckyNumber===2 && adventurous) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
+let mostPets= true;
+if (pets>friendsPets) {
+  console.log("McKynlee wins with", pets, "pets!");
+}
+else if (pets<friendsPets) {
+  console.log("McKynlee doesn't have", friendsPets, "pets like her friend.");
+}
+else {
+  console.log("Everyone has the same amount of pets.");
+}
+//Note from McK: I wrote this as if I didn't know the number of pets we each had
+//and so the conditional would withstand as we change number of pets.
+//I feel like the question, though, is asking me to set mostPets = something definitive.
+//which I didn't get my brain to wrinkle in the right way to pull off!
+
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+switch (mostPets) {
+  case 0:
+    text="No one has any pets, how sad!"
+    break;
+  case 3: "McK has 3 pets"
+    break;
+  default: "Can't figure out number of pets."
 
+}
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+(adventurous ? "Adventures are great!" : "How about we stay home?");
+console.log(adventurous);
