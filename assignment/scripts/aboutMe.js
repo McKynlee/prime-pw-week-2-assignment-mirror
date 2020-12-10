@@ -17,7 +17,7 @@ let luckyNumber=9;
 // Refer back to the videos if you need help with this one.
 console.log('My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous=false;
+let adventurous=true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food='rotisserie chicken and roasted potatoes';
 console.log("I'm going to talk about", food, "even though you didn't ask me to!");
@@ -94,5 +94,6 @@ switch (mostPets) {
 
 }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-(adventurous ? "Adventures are great!" : "How about we stay home?");
-console.log(adventurous);
+let adventure = true;
+adventure= (adventurous ? "Adventures are great!" : "How about we stay home?");
+console.log(adventure);
