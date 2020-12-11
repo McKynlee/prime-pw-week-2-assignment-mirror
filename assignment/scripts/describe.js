@@ -72,9 +72,13 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 //We create variable isStudent and make it true.
-//d 
-//
-//
+//We create a variable for age and set it equal to 34.
+//We create a variable called zip and make it 55407.
+//We write a conditional statement that will yield "You're a student on the West Coast!" if both isStudent is true AND zip is greater than 80000.
+//The conditional will yield "What are your hobbies?" if either isStudent is false or age is less than 30.
+//The conditional will yield "Welcome to Prime!" if isStudent is true (and zip is less than or equal to 80000, otherwise it would yield "You're a student on the West Coast!").
+//If none of the above conditions are satisfied, we will console log "How about the weather?"
+//We console log "Welcome to Prime!"
 
 //CODE
 /*
