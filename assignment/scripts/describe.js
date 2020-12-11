@@ -71,8 +71,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
+//We create variable isStudent and make it true.
+//d 
 //
 //
 
