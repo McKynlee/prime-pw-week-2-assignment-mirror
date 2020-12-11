@@ -84,15 +84,31 @@ else {
 
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
-switch (mostPets) {
+let mostAnimals = 3
+switch (mostAnimals) {
   case 0:
-    text="No one has any pets, how sad!"
+  console.log("No one has any pets, how sad!");
     break;
-  case 3: "McK has 3 pets"
+  case 3:
+  console.log("McK has", pets, "pets, and that's more than her friend has.");
     break;
-  default: "Can't figure out number of pets."
-
+  default:
+  console.log("Can't figure out number of pets.");
 }
+
+//ORRRRRRRR:
+const houseAnimals = pets;
+switch (houseAnimals) {
+  case pets:
+  console.log("Mac is the animal Queen!");
+  break;
+  case friendsPets:
+  console.log("Mac's friend is the coolest; they have the most pets!");
+  break;
+  default:
+  console.log("Not sure who the heck has the most pets!");
+}
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let adventure = true;
 adventure= (adventurous ? "Adventures are great!" : "How about we stay home?");
