@@ -71,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//We create variable isStudent and make it true.
-//We create a variable for age and set it equal to 34.
-//We create a variable called zip and make it 55407.
+//We create variable isStudent and make it boolean true.
+//We create a variable for age and set it equal to 34 as a number.
+//We create a variable called zip and make it 55407 as a number.
 //We write a conditional statement that will yield "You're a student on the West Coast!" if both isStudent is true AND zip is greater than 80000.
 //The conditional will yield "What are your hobbies?" if either isStudent is false or age is less than 30.
 //The conditional will yield "Welcome to Prime!" if isStudent is true (and zip is less than or equal to 80000, otherwise it would yield "You're a student on the West Coast!").
@@ -134,10 +134,18 @@ if (number >= 2) {
 //-- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne should be set to 'blue' and colorTwo should be set to 'red', so it should be:
+//let colorOne = 'blue';
+//colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//this top line is correct, but could also be: if (mix) {}.
+//the directions say to set both colorOne and colorTwo to purple, so:
+//if (mix) {
+//  colorOne = colorTwo = 'purple'
+// }
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -148,9 +156,13 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//I don't see a right/wrong with one of these being let and the other constant, as it depends whether they each change later in the code.
+//Though time does generally change as a rule of the world ;)
 let temp = 40;
 const time = 4;
 
+//This code is checking if temp is greater than 39 OR time is greater than or equal to 4.
+//should be if (temp > 39 && time >= 4) {}   though the OR conditional will still console.log 'throw away the food'
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!);
 }
@@ -163,6 +175,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//This code is checking if minAge is less than or equal to age,
+//and if so then 'no entry' will be console.logged, and if not 'enter' will be logged.
+//so the code should be:
+//if(age > minAge) {
+// console.log('enter');
+// }
 
 if(minAge <= age) {
   console.log('no entry');
