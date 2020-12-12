@@ -49,7 +49,7 @@ if (name === 'Mary') {
 //We make a variable named code and set it equal to 123.
 //We say that if the variable code is equal in value AND type to 123, then our output for the secret variable will be the word super, and our original code number output will be doubled.
 //If the code variable is greater than 250, then the output for secret will be the word duper.
-//We console.log secret and the output is "super" and "246".
+//We console.log secret and the output is 'super' (and code would equal 246).
 
 //CODE
 /*
